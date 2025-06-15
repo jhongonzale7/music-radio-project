@@ -1,0 +1,35 @@
+<mat-toolbar color="primary" class="app-toolbar">
+  <!-- logo en assets/ -->
+  <img src="assets/logo.png" alt="Music Radio Inc" height="40">
+  <span class="spacer"></span>
+
+  <!-- Botón de Carrito, siempre visible -->
+<!-- Botón de Carrito con badge -->
+<button mat-icon-button
+        routerLink="/cart"
+        aria-label="Ver carrito"
+        [matBadge]="cartCount"
+        matBadgeColor="accent"
+        matBadgeOverlap="false"
+        style="margin-right: 12px;">
+  <mat-icon>shopping_cart</mat-icon>
+</button>
+
+
+  <!-- botones según sesión -->
+  <ng-container *ngIf="!user">
+    <button mat-button routerLink="/">Home</button>
+    <button mat-button routerLink="/login">Login</button>
+    <button mat-button routerLink="/register">Registro</button>
+  </ng-container>
+  <ng-container *ngIf="user">
+    <span>Hola, {{ user.nombre }}!</span>
+    <button mat-button (click)="logout()">Logout</button>
+  </ng-container>
+</mat-toolbar>
+
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
+
+

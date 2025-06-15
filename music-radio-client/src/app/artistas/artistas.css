@@ -1,0 +1,8 @@
+.artistas-card {
+  max-width: 800px;
+  margin: 24px auto;
+}
+.actions {
+  text-align: right;
+  margin-top: 16px;
+}

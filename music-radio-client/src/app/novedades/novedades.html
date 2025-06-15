@@ -1,0 +1,17 @@
+<mat-card class="novedades-card">
+  <mat-card-header>
+    <mat-card-title>¡Nuevos títulos & productos!</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="novedades-grid">
+      <mat-card *ngFor="let item of novedades" class="novedad-card">
+        <img mat-card-image [src]="item.image" alt="{{ item.title }}">
+        <mat-card-title>{{ item.title }}</mat-card-title>
+        <p>{{ item.description }}</p>
+      </mat-card>
+    </div>
+    <div class="actions">
+      <button mat-button color="primary" routerLink="/dashboard">Volver al catálogo</button>
+    </div>
+  </mat-card-content>
+</mat-card>

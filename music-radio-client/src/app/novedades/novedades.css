@@ -1,0 +1,16 @@
+.novedades-card {
+  max-width: 960px;
+  margin: 24px auto;
+}
+.novedades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.novedad-card {
+  text-align: center;
+}
+.actions {
+  text-align: right;
+}

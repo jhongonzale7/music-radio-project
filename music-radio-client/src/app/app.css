@@ -1,0 +1,21 @@
+
+.app-toolbar {
+  padding: 0 16px;
+  background-color: #7c4dff !important;
+  color: #fff;
+}
+
+.app-toolbar img {
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.app-toolbar button {
+  color: #fff !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+

@@ -1,0 +1,19 @@
+@use '@angular/material/theming' as mat;
+
+// 1. Define paletas base
+$primary-palette: mat.define-palette(mat.$indigo-palette, 700, 500, 900);
+$accent-palette:  mat.define-palette(mat.$pink-palette,  A200, A100, A400);
+
+// 2. Crea tema claro
+$app-light-theme: mat.define-light-theme((
+  color: (
+    primary: $primary-palette,
+    accent:  $accent-palette,
+  ),
+  typography: mat.define-typography-config((
+    font-family: 'Roboto, sans-serif',
+  ))
+));
+
+// 3. Incluye estilos de Angular Material
+@include mat.all-component-themes($app-light-theme);

@@ -1,0 +1,18 @@
+<div class="cart-container">
+  <h2>Tu Carrito</h2>
+  <ng-container *ngIf="cart$ | async as items">
+    <div *ngIf="$any(items).length; else empty">
+      <div *ngFor="let item of $any(items)" class="cart-item">
+        <img [src]="item.image" alt="{{item.title}}" width="60">
+        <div>
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.artist }} • {{ item.quantity }} × {{ item.price | currency }}</p>
+        </div>
+      </div>
+      <button mat-raised-button color="primary" (click)="checkout()">Pagar</button>
+    </div>
+    <ng-template #empty>
+      <p>Tu carrito está vacío.</p>
+    </ng-template>
+  </ng-container>
+</div>
