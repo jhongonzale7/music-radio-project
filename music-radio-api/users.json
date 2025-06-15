@@ -1,0 +1,83 @@
+[
+  {
+    "NumIdentificacion": "1152213463",
+    "Password": "",
+    "Nombre": "Jhon",
+    "Correo": "alexvasquezghz@gmail.com",
+    "Direccion": "CL 34 B 29 36",
+    "Ciudad": "MEDELLIN",
+    "Telefono": "3008726321"
+  },
+  {
+    "NumIdentificacion": "1996",
+    "Password": "",
+    "Nombre": "Luis",
+    "Correo": "luis@gmail.com",
+    "Direccion": "C",
+    "Ciudad": "MEDELLIN",
+    "Telefono": "2222222"
+  },
+  {
+    "NumIdentificacion": "1997",
+    "Password": "",
+    "Nombre": "Juan",
+    "Correo": "juan1@gmail.com",
+    "Direccion": "C",
+    "Ciudad": "barranquilla",
+    "Telefono": "1234"
+  },
+  {
+    "NumIdentificacion": "1998",
+    "Password": "",
+    "Nombre": "Pedro Perez",
+    "Correo": "pedro@correo.com",
+    "Direccion": "CL",
+    "Ciudad": "MEDELLIN",
+    "Telefono": "2222222"
+  },
+  {
+    "NumIdentificacion": "2000",
+    "Password": "",
+    "Nombre": "Jhon",
+    "Correo": "jhon@gmail.com",
+    "Direccion": "CL",
+    "Ciudad": "MEDELLIN",
+    "Telefono": "0342293939"
+  },
+  {
+    "NumIdentificacion": "123456789",
+    "Password": "",
+    "Nombre": "Nuevo Usuario",
+    "Correo": "nuevousuario@gmail.com",
+    "Direccion": "CL",
+    "Ciudad": "CIUDAD DE MEXICO",
+    "Telefono": "1234"
+  },
+  {
+    "NumIdentificacion": "4444444",
+    "Password": "4444",
+    "Nombre": "Juan Moreno",
+    "Correo": "Juanmoreno@gmail.com",
+    "Direccion": "cl",
+    "Ciudad": "Mexico",
+    "Telefono": "12345"
+  },
+  {
+    "NumIdentificacion": "9898",
+    "Password": "1234",
+    "Nombre": "Jhon",
+    "Correo": "jhon2@gmail.com",
+    "Direccion": "CL 34 B 29 36",
+    "Ciudad": "barranquilla",
+    "Telefono": "1234"
+  },
+  {
+    "NumIdentificacion": "1010",
+    "Password": "1010",
+    "Nombre": "Diez",
+    "Correo": "10@gmail.com",
+    "Direccion": "CL 34 B 29 36",
+    "Ciudad": "MEDELLIN",
+    "Telefono": "3008726321"
+  }
+]

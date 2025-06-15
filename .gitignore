@@ -1,0 +1,19 @@
+# Angular
+music-radio-client/node_modules/
+music-radio-client/dist/
+music-radio-client/.angular/cache/
+
+# .NET
+music-radio-api/bin/
+music-radio-api/obj/
+
+# VSCode config (opcional)
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log
+yarn-error.log
